@@ -1,0 +1,41 @@
+{
+  "name": "generator-webpack-babel-postcss",
+  "version": "0.0.1",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whwei/generator-webpack-babel-postcss.git"
+  },
+  "author": "whwei <whw.0922@gmail.com> (https://github.com/whwei)",
+  "files": [
+    "app"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator webpack babel postcss"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "colors": "^1.0.3",
+    "cross-spawn": "^2.0.0",
+    "yeoman-generator": "^0.18.9",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/whwei/generator-webpack-babel-postcss/issues"
+  },
+  "homepage": "https://github.com/whwei/generator-webpack-babel-postcss#readme",
+  "directories": {
+    "test": "test"
+  }
+}
